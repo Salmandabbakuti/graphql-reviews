@@ -1,5 +1,5 @@
-  $('#getMovies').click();
 let apiUrl = 'http://localhost:4000/graphql'
+ $('#getMovies').click();
 function getMovies(){
 axios({
   url: apiUrl,

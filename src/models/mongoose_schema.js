@@ -16,10 +16,10 @@ const movieSchema = new Schema({
    rank: {
        type: Number,
        required: true
-   },
+   }
+},
   {
     timestamps: true
-    }
 });
 var Movies = mongoose.model('Movie', movieSchema);
 module.exports = {Movies, movieSchema};
