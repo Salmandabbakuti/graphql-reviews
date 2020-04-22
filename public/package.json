@@ -1,0 +1,30 @@
+{
+  "name": "movie-reviews-graphql",
+  "version": "1.0.0",
+  "description": "Movie Reviews Application with GraphQL",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.0"
+  },
+  "scripts": {
+    "test": "npm i",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salmandabbakuti/movie-reviews.git"
+  },
+  "keywords": [
+    "graphql",
+    "crud",
+    "mongo",
+    "node",
+    "express"
+  ],
+  "author": "Salman Dabbakuti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Salmandabbakuti/movie-reviews/issues"
+  },
+  "homepage": "https://github.com/Salmandabbakuti/movie-reviews#readme"
+}
