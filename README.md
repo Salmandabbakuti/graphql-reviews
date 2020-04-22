@@ -2,6 +2,8 @@
 A graphql movie-reviews CRUD Application using Mongo,Express, Node
 
 #### GraphQL Server Setup
+
+>Make sure you entered your mongo db instance URL in server.js
 ```
 npm install
 node server.js #Listens at 4000/graphql, IDE at 4000/playground 
