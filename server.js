@@ -18,7 +18,7 @@ const server = new GraphQLServer({
   }
 });
 const options = {
-  port: 8080,
+  port: 4000,
   endpoint: '/graphql',
   subscriptions: '/subscriptions',
   playground: '/playground',
