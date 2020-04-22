@@ -17,10 +17,8 @@ const server = new GraphQLServer({
     pubsub
   }
 });
-
-/*
 const options = {
-  port: 8000,
+  port: 8080,
   endpoint: '/graphql',
   subscriptions: '/subscriptions',
   playground: '/playground',
@@ -30,5 +28,4 @@ server.start(options, ({ port }) =>
     `Server started, listening on port ${port} for incoming requests.`,
   ),
 )
-*/
-server.start(() => console.log('Server is running on localhost:4000'))
+//server.start(() => console.log('Server is running on localhost:4000'))
